@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "me.hydos",
+    "module": "vk-bootstrap4j",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "vk-bootstrap4j-1.0.jar",
+          "url": "vk-bootstrap4j-1.0.jar",
+          "size": 261,
+          "sha512": "0d87119111087a4a188f4934b91cf51d309eef16a63d076f97b6c0d885d13f627489a25afe78487a6747644030f6e6cdea23829008c793cf7f1c08fc78071770",
+          "sha256": "4ac0663b4d641b81ff9100d4416c9aeb15d9179c8525a309956745d4ff0b65aa",
+          "sha1": "7ed04f7f484dc85b954d34d47cda179743d19533",
+          "md5": "21308abaeaa42fac03f02aa2bf797f87"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-bom",
+          "version": {
+            "requires": "3.3.4"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl"
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-vulkan"
+        }
+      ],
+      "files": [
+        {
+          "name": "vk-bootstrap4j-1.0.jar",
+          "url": "vk-bootstrap4j-1.0.jar",
+          "size": 261,
+          "sha512": "0d87119111087a4a188f4934b91cf51d309eef16a63d076f97b6c0d885d13f627489a25afe78487a6747644030f6e6cdea23829008c793cf7f1c08fc78071770",
+          "sha256": "4ac0663b4d641b81ff9100d4416c9aeb15d9179c8525a309956745d4ff0b65aa",
+          "sha1": "7ed04f7f484dc85b954d34d47cda179743d19533",
+          "md5": "21308abaeaa42fac03f02aa2bf797f87"
+        }
+      ]
+    }
+  ]
+}
