@@ -1,5 +1,6 @@
 plugins {
     id("java")
+    id("maven-publish")
 }
 
 repositories {
@@ -12,5 +13,4 @@ dependencies {
 
     implementation("org.lwjgl", "lwjgl")
     implementation("org.lwjgl", "lwjgl-vulkan")
-    runtimeOnly("org.lwjgl", "lwjgl", classifier = "natives-windows")
 }
