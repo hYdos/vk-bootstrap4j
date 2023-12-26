@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("org.lwjgl:lwjgl-bom:3.3.4"))
+    implementation(platform("org.lwjgl:lwjgl-bom:3.3.3"))
 
     implementation("org.lwjgl", "lwjgl")
     implementation("org.lwjgl", "lwjgl-vulkan")
